@@ -5,7 +5,8 @@ include(FetchContent)
 project(${PISUBMARINE_MODULE_NAME}.Test LANGUAGES CXX)
 
 set(${PISUBMARINE_MODULE_NAME}.Test.Sources
-        "PiSubmarine/Battery/Telemetry/Api/IProviderTest.cpp")
+        "PiSubmarine/Battery/Telemetry/Api/IProviderTest.cpp"
+        "PiSubmarine/Battery/Telemetry/Api/StateTest.cpp")
 
 enable_testing()
 
